@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configServer" />
+        <module name="eurekaserverservice" />
+        <module name="musicx-application" />
+        <module name="user-service" />
+        <module name="zuulGateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configServer" target="11" />
+      <module name="eurekaserverservice" target="11" />
+      <module name="music-app" target="11" />
+      <module name="musicx-application" target="11" />
+      <module name="user-service" target="11" />
+      <module name="zuulGateway" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configServer" options="-parameters" />
+      <module name="eurekaserverservice" options="-parameters" />
+      <module name="musicx-application" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="zuulGateway" options="-parameters" />
+    </option>
+  </component>
+</project>

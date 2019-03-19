@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-service/configServer.iml" filepath="$PROJECT_DIR$/config-service/configServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eurekaserverservice.iml" filepath="$PROJECT_DIR$/eureka-server/eurekaserverservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music-app.iml" filepath="$PROJECT_DIR$/music-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music-service/musicx-application.iml" filepath="$PROJECT_DIR$/music-service/musicx-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-apigateway/zuulGateway.iml" filepath="$PROJECT_DIR$/zuul-apigateway/zuulGateway.iml" />
+    </modules>
+  </component>
+</project>
